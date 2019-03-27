@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:ResourceReadingProfile xmlns="http://openfmb.org/xsd/2015/12/openfmb/commonmodule" xmlns:ns2="http://openfmb.org/xsd/2015/12/openfmb/resourcemodule">
+    <logicalDeviceID>DEMO.MGRID.RESOURCE.1</logicalDeviceID>
+    <timestamp>2018-07-17T16:23:43.486+09:00</timestamp>
+    <ns2:Meter>
+        <description>Load1</description>
+        <mRID>DEMO.MGRID.RESOURCE.1</mRID>
+        <name>Load1</name>
+        <PowerSystemResource>
+            <description>Load1</description>
+            <mRID>DEMO.MGRID.RESOURCE.1</mRID>
+            <name>Load1</name>
+        </PowerSystemResource>
+    </ns2:Meter>
+    <ns2:Readings>
+        <qualityFlag>0000</qualityFlag>
+        <source>Load1</source>
+        <timePeriod>
+            <start>2018-07-17T16:23:43.486+09:00</start>
+        </timePeriod>
+        <value>157.14575</value>
+        <ReadingType>
+            <flowDirection>forward</flowDirection>
+            <multiplier>kilo</multiplier>
+            <name>KW</name>
+            <phases>ABC</phases>
+            <unit>W</unit>
+        </ReadingType>
+    </ns2:Readings>
+</ns2:ResourceReadingProfile>
